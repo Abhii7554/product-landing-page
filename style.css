@@ -139,7 +139,7 @@
   
   /* Mobile Navigation */
   @media (max-width: 768px) {
-    .hero-img img {
+    .hero-img {
       width: 550px;
       margin-top: 20px;
     }
