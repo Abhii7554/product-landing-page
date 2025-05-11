@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SmartProX - Product Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+  <header class="header">
+    <div class="logo">ArkFit</div>
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu-btn" id="menu-btn">&#9776;</button>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-right">
+      <h1>Next-Gen Smartwatch</h1>
+      <p>Track your health. Boost productivity. Look stylish — all in one wearable.</p>
+      <a href="#features" class="btn">Explore Features</a>
+    </div>
+    <div class="hero-img" data-aos="fade-left">
+      <img src="images/2151039316-removebg-preview.png" alt="Smartwatch" />
+    </div>
+  </section>
+
+  <section id="features" class="features">
+    <h2>Why Choose ArkFit?</h2>
+    <div class="features-grid">
+      <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Health Tracking</h3>
+        <p>Monitor heart rate, steps, sleep, and more — all in real time.</p>
+      </div>
+      <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Productivity Boost</h3>
+        <p>Manage calls, texts, and calendars without touching your phone.</p>
+      </div>
+      <div class="feature" data-aos="zoom-in" data-aos-delay="100">
+        <h3>Elegant Design</h3>
+        <p>Crafted with precision. Built to impress at every occasion.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <h2 data-aos="fade-up">Choose Your Plan</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card" data-aos="flip-left">
+        <h3>Basic</h3>
+        <p class="price">$49</p>
+        <ul>
+          <li>Heart Rate Monitor</li>
+          <li>Step Tracker</li>
+          <li>Basic Notifications</li>
+        </ul>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+  
+      <div class="pricing-card featured" data-aos="flip-up">
+        <h3>Pro</h3>
+        <p class="price">$99</p>
+        <ul>
+          <li>All Basic Features</li>
+          <li>Sleep Tracking</li>
+          <li>Advanced Productivity</li>
+          <li>1-Year Warranty</li>
+        </ul>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+  
+      <div class="pricing-card" data-aos="flip-right">
+        <h3>Premium</h3>
+        <p class="price">$149</p>
+        <ul>
+          <li>All Pro Features</li>
+          <li>Priority Support</li>
+          <li>Custom Watch Faces</li>
+        </ul>
+        <a href="#" class="btn">Buy Now</a>
+      </div>
+    </div>
+  </section>
+  
+  <section class="testimonials" id="testimonials">
+    <h2 data-aos="fade-up">What Our Users Say</h2>
+    <div class="testimonial-grid">
+      <div class="testimonial-card" data-aos="zoom-in">
+        <p>"Arkfit completely changed how I manage my day. I feel healthier and more productive!"</p>
+        <h4>– Riya Sharma</h4>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="150">
+        <p>"Sleek design, powerful features, and incredible battery life. Worth every penny."</p>
+        <h4>– Arjun Mehta</h4>
+      </div>
+      <div class="testimonial-card" data-aos="zoom-in" data-aos-delay="300">
+        <p>"I love how I can stay updated without even picking up my phone. 10/10 recommend."</p>
+        <h4>– Sneha Patel</h4>
+      </div>
+    </div>
+  </section>
+  
+  <section class="contact" id="contact">
+    <div class="contact-container" data-aos="fade-up">
+      <h2>Let's Talk</h2>
+      <p>Have a question or want to collaborate? Reach out to us below.</p>
+      <form class="contact-form" action="https://formspree.io/f/mpwdrvel" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+        <input type="hidden" name="_redirect" value="https://yourdomain.com/thankyou.html" />
+      </form>      
+    </div>
+  </section>
+  
+      
+
+  <footer class="footer">
+    <p>&copy; 2025 SmartProX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
