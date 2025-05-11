@@ -162,6 +162,13 @@
     .menu-btn {
       display: block;
     }
+    .hero {
+      padding: 1rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 2rem;
+    }
   }
   
   /* Pricing */
