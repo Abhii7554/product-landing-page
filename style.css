@@ -139,9 +139,9 @@
   
   /* Mobile Navigation */
   @media (max-width: 768px) {
-    .hero-img {
-      width: 550px;
-      margin-top: 20px;
+    .hero-image {
+      max-width: 90vw;
+      width: 90vw;
     }
     .navbar {
       display: none;
