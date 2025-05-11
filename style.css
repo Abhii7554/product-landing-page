@@ -140,7 +140,7 @@
   /* Mobile Navigation */
   @media (max-width: 768px) {
     .hero-img img {
-      width: 80%;
+      width: 550px;
       margin-top: 20px;
     }
     .navbar {
